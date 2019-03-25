@@ -1,0 +1,24 @@
+header, body
+{
+	text-align: center;
+	background-color: #2C2C2C;
+	margin:1px solid black; 
+}
+
+
+h1
+{
+	color: #0A8DE0;
+	font-family:fantasy;
+}
+
+nav
+{
+	display: flex;
+	flex-flow: wrap row;
+	color: gold;
+	margin: 20px solid black;
+	font-family: serif;
+	font-weight: bold;
+	font-style: oblique;
+}

@@ -34,6 +34,7 @@ p
 	width: 1000px;
 	height: 200px;
 	flex-direction: column;
+	margin: 100px;
 }
 
 
@@ -43,6 +44,7 @@ p
 	height: 200px;
 	justify-content: space-around;
 	flex-direction: column;
+	margin: 100px;
 }
 
 
@@ -52,6 +54,7 @@ p
 	height: 200px;
 	justify-content: space-around;
 	flex-direction: column;
+	margin: 100px;
 }
 
 a

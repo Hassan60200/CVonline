@@ -1,0 +1,55 @@
+#Scolaire
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:red;
+}
+
+html
+{
+background-color: bisque;
+}
+
+img
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.étude
+{
+    height: 200px;
+    width: auto;
+}
+.web
+{
+    height: 200px;
+    width: auto;
+}
+
+#Jobs
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:black;
+}
+
+.rh
+{
+    height: 200px;
+    width: auto;
+}
+
+.travailleur
+{
+    height: 200px;
+    width: auto;
+}

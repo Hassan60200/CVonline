@@ -1,0 +1,21 @@
+fieldset
+{
+    background-color: #FAEBD7;
+    
+}
+
+legend,li,p
+{
+    font-size: 30px;
+}
+
+img
+{
+    width: 100px;
+    height: 100px,
+}
+
+html
+{
+    background-color: #B22222;
+}

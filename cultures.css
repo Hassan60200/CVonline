@@ -1,0 +1,12 @@
+html
+{
+    background-color: bisque;
+}
+
+#cultures
+{
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    background-color: orange;
+}

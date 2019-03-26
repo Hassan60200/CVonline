@@ -3,10 +3,141 @@ html
     background-color: bisque;
 }
 
+@media screen and (min-width: 100px) and (max-width: 1080px){
+    nav,h1{
+        font-size: 20px;
+    }
+    img{
+        display: none;
+    }
+}
+
 #cultures
 {
     justify-content: center;
     border: 2px solid black;
     display: flex;
     background-color: orange;
+    font-size: 30px;
+}
+
+#hobbies
+{
+    display: flex;
+    background-color: silver;
+    font-size: 22px;
+    font-family:sans-serif;
+}
+
+#Lecture
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:black;
+}
+
+#Cinéma
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:black;
+}
+
+#Sport
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:black;
+}
+
+#IT
+{
+    display: flex;
+    border: 2px solid black;
+    background-color: bisque;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+    color:black;
+}
+
+header, body,
+{
+	text-align: center;
+	background-color: bisque;
+	height: 100px;
+}
+
+h1,h2
+{
+    text-align: center;
+    height: 80px;
+}
+nav
+{
+    display: flex;
+	flex-flow: wrap row;
+	color: black;
+	font-family: serif;
+	font-weight: bold;
+	font-style: oblique;
+	justify-content:center;
+	font-size: 20px;
+	margin: 0 100px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+	transition:0.3
+}
+
+a:hover
+{
+	box-shadow:0px 10px 10px red;
+	color: black;
+
+}
+
+#image
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.cinema
+{
+    height: 200px;
+    width: auto;
+}
+.football
+{
+    height: 200px;
+    width: auto;
+}
+
+.livre
+{
+    height: 200px;
+    width: auto;
+}
+
+.IT
+{
+    height: 200px;
+    width: auto;
 }

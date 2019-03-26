@@ -15,13 +15,11 @@ h1,h2
 {
     text-decoration: underline;
     color: red;
-    font-style: italic;
 }
 
 li
 {
     color:black;
-    font-style: oblique;
     font-weight: bold;
 }
 
@@ -58,9 +56,13 @@ a:hover
 	color: black;
 }
 
-@media screen (min-width: 200px) and (max-width: 1080px){
-    h1,nav,h2{
+@media screen and (min-width: 500px) and (max-width: 1080px){
+    nav,h1,h2{
         font-size: 15px;
-        color: blue;
     }
 }
+
+@media screen and (min-width: 200px) and (max-width: 499px){
+    nav,h1,h2{
+        font-size: 10px;
+    }

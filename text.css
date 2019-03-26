@@ -27,34 +27,41 @@ p
 #Moi
 {
 	display: flex;
+	justify-content: space-around;
 
 }
 #coordonnees
 {
-	width: 1000px;
+	/* width: 1000px; */
+	width: 25%;
 	height: 200px;
 	flex-direction: column;
-	margin: 100px;
+	margin-top: 100px;
+	border: 1px solid black;
 }
 
 
 #Situation
 {
-	width: 1000px;
+	/* width: 1000px; */
+	width: 25%;
 	height: 200px;
 	justify-content: space-around;
 	flex-direction: column;
-	margin: 100px;
+	margin-top: 100px;
+	border: 1px solid black;
 }
 
 
 #Objectif
 {
-	width: 1000px;
+	/* width: 1000px; */
+	width: 25%
 	height: 200px;
 	justify-content: space-around;
 	flex-direction: column;
-	margin: 100px;
+	margin-top: 100px;
+	border: 1px solid black;
 }
 
 a
@@ -88,32 +95,37 @@ nav
 {
 	display: flex;
 	justify-content: space-around;
-
 }
 .coordonnees
 {
- 	 width: 25%;
- 	 height: 100%;
+ 	 width: 100px;
+ 	 height: 90%;
 }
 
 .Situation
 {
- 	 width: 25%;
+ 	 width: 100px;
  	 height: 100%;
 }
 
 .Objectif
 {
- 	 width: 25%;
- 	 height: 100%;
+ 	 width: 100px;
+ 	 height: 90%;
 }
 
 @media screen and (min-width: 100px) and (max-width: 1080px){
   p{
     color:red;
   }
-  a,h2,p{
-	  font-size: 15px;
-
+  nav,h2,p,h1{
+	  font-size: 12px;
   }
+	#Moi{
+		flex-direction: column;
+	}
+	#Moi div{
+		width: 95%;
+		margin-top: 10px;
+	}
 }

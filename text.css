@@ -116,7 +116,9 @@ nav
 
 @media screen and (min-width: 100px) and (max-width: 1080px){
   p{
-    color:red;
+    color:red;font-weight: bold;
+	text-align: center;
+
   }
   nav,h2,p,h1{
 	  font-size: 12px;
@@ -127,5 +129,7 @@ nav
 	#Moi div{
 		width: 95%;
 		margin-top: 10px;
+		background-color: lightblue;
 	}
+	img{display: none;}
 }
